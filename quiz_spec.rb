@@ -34,7 +34,7 @@ describe Quiz do
 
   it "should get results for January 6, 2016" do
     expect(@results["January 6, 2016"]).to be_a(Hash)
-    
+
     jan6_results = @results["January 6, 2016"]
     expect(jan6_results[:tests]).to eq    "450"
     expect(jan6_results[:passes]).to eq   "423"
